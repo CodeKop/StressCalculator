@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: 'Calibri';
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#page-whole {
+    padding: 8px 0;
+    margin: 16px;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 750px;
+    background-color: white;
+    box-shadow: 0 4px 16px #0002;
+}
+
+#page-header-index {
+    padding: 16px 24px;
+}
+
+#page-header-index h1 {
+    margin: 0;
+}
+
+.page-body-section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 4px;
+    padding: 0 16px;
+}
+
+.page-body-section .input-label {
+    flex: 1;
+}
+
+.page-body-section .input-label .input-error {
+
+}
+
+.page-body-section .input-label .input-error:empty {
+    display: none;
+}
